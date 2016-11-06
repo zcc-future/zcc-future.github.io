@@ -58,7 +58,14 @@ img {
 	width: 100%;
 }
 /*-- //Reset Code --*/
-
+#photo{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background:url(../images/13.png);
+	margin:0 auto;
+	background-size: 100%;
+}
 /*-- banner --*/
 .banner{
 	padding:95px 0px;
