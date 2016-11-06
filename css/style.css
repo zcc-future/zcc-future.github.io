@@ -214,11 +214,44 @@ label.line {
 	background:url('../images/skillsbg.jpg') no-repeat 0px 0px;
 	text-align:left;
 	background-size: cover;
+	height:auto;
+	overflow: hidden;
 }
 .skills h3{
 	color:#fff;
 }
-.skills-left h4{
+.skills-1{
+	height:auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+.skills-2{
+	width:80px;
+	height:80px;
+	border-radius: 5%;
+	background:#0068b7;
+	margin:20px auto;
+	color:white;
+	font-weight: bold;
+	line-height: 80px;
+	font-size: 40px;
+	transition: all 1s linear 0s;	
+	cursor: pointer;
+}
+.skills-2:hover{
+	transform: rotate(360deg);
+}
+
+
+.skills-3{
+	width:100%;
+	font-size:22px ;
+	line-height: 25px;
+	color:white;
+	margin-bottom: 10px;
+}
+/*.skills-left h4{
 	color:#fff;
 	font-size:23px;
 	text-align:left;
@@ -231,7 +264,7 @@ label.line {
 }
 .skills-left,.skills-right,.blog-grids{
 	margin:5em 0 0;
-}
+}*/
 
 /*--progress-bars--*/
 .bar_group {
